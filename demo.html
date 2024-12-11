@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Girija Taparia - A Designer</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.7.2/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">GT.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <div class="profile-header">
+                <img src="girija.jpg" alt="Girija Taparia" class="profile-image">
+                <div class="bio-section">
+                    <h1>Girija Taparia</h1>
+                    <p>Hello, my name is Girija Taparia, and I am a Bachelor of Design student at Atlas University, Mumbai. I specialize in digital design, focusing on creating impactful visuals that communicate ideas effectively. With expertise in Adobe Photoshop, Illustrator, and InDesign, I enjoy exploring the creative potential of digital tools to craft professional and visually engaging designs. I am passionate about combining creativity and technology to tell compelling stories and bring innovative ideas to life.</p>
+                    <!-- <a href="#contact" class="contact-btn">Get in touch</a> -->
+                </div>
+            </div>
+            
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <img src="figma.png" alt="Figma" class="skill-icon">
+                    <h3>Figma</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="indesign.png" alt="InDesign" class="skill-icon">
+                    <h3>Adobe InDesign</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="photoshop.png" alt="Photoshop" class="skill-icon">
+                    <h3>Adobe Photoshop</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="Adobe_Illustrator.png" alt="Illustrator" class="skill-icon">
+                    <h3>Adobe illustrator</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="work">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <img src="Cookbook.jpg"Cookbook Design" class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">Modern Cookbook Design</h3>
+                    <p class="project-description">A beginner-friendly cookbook tailored for hostel students, featuring simple recipes, vibrant visuals, and a clean, easy-to-navigate design.</p>
+                    <div class="tag-container">
+                        <span class="tag">Editorial</span>
+                        <span class="tag">Print Design</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="Poster a3 wine bottle copy finalllll.jpg" alt="Wine Bottle Design" class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">Wine Bottle Poster</h3>
+                    <p class="project-description">A Romanticism-inspired wine poster design, featuring a serene vineyard illustration, Roman architectural elements, and a soft moonlit backdrop to evoke deep emotion, individuality, and timeless elegance.</p>
+                    <div class="tag-container">
+                        <span class="tag">Packaging</span>
+                        <span class="tag">Branding</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="h g- B.jpg" alt="Digital Magazine" class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">Art Deco Glossary</h3>
+                    <p class="project-description">An Art Deco glossary designed as a creative narrative, showcasing key terms with bold typography, intricate patterns, and illustrations that capture the elegance and charm of the Art Deco era.</p>
+                    <div class="tag-container">
+                        <span class="tag">Editorial</span>
+                        <span class="tag">Digital</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-card">
+            <h2 class="section-title">Let's Create Together</h2>
+            <p class="text-muted">Open to exciting opportunities and creative collaborations</p>
+            <a href="mailto:girija@gmail.com" class="contact-btn">Send a Message</a>
+            <div class="social-links">
+                <a href="https://www.behance.net/girijataparia" class="social-link"><i class="bi bi-behance"></i></a>
+                <!-- <a href="#" class="social-link"><i class="bi bi-dribbble"></i></a> -->
+                <!-- <a href="" class="social-link"><i class="bi bi-instagram"></i></a> -->
+                <a href="https://www.linkedin.com/in/girija-t-b68284282/" class="social-link"><i class="bi bi-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Navbar scroll effect
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+</html>
